@@ -1,0 +1,6 @@
+id;firstName;LastName;Age;Departament;id;FirstName;LastName;Age;role
+1;Marcelo;Ciacco;42;People Learning;101;Mateus;Santos;20;Student
+2;David;Buzatto;45;People Learning;102;Thiago;Ventura;23;Student
+3;Breno;Romano;32;People Learning;103;Lais;Barros;20;Student
+4;Cassio;Pereira;54;People Learning;104;Joao;Pedro;20;Student
+5;Felipe;Bittencurt;44;People Learning;105;Gabriela;Bueno;20;Student
