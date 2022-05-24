@@ -86,14 +86,14 @@ public class FileReader implements IDirectory, IFile, ICreateList {
     private IPerson createPerson(String[] data){
          
         int idEmployer = Integer.parseInt(data[0]);
-        int idEmployee = Integer.parseInt(data[5]);
         String firstNameEmployer = data[1];
         String lastNameEmployer = data[2];
+        int ageEmployer = Integer.parseInt(data[3]);
+        String departament = data[4];
+        int idEmployee = Integer.parseInt(data[5]);     
         String firstNameEmployee = data[6];
         String lastNameEmployee = data[7];
-        int ageEmployer = Integer.parseInt(data[3]);
-        int ageEmployee =  Integer.parseInt(data[8]);;
-        String departament = data[4];
+        int ageEmployee =  Integer.parseInt(data[8]);
         String role = data[9];
         
         Employer employer = new Employer(departament, idEmployee, firstNameEmployer, lastNameEmployer, ageEmployer);
